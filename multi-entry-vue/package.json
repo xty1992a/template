@@ -1,0 +1,15 @@
+{
+  "name": "multi-entry-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "dayjs": "^1.8.16"
+  },
+  "author": "",
+  "license": "ISC"
+}
