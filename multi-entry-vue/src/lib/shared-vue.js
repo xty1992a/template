@@ -4,3 +4,5 @@ import * as utils from '@/utils';
 
 Vue.prototype.$dayjs = dayjs;
 Vue.prototype.$utils = utils;
+
+export default Vue;

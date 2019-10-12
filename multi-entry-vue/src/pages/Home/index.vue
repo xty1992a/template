@@ -6,6 +6,8 @@
 </template>
 
 <script>
+  import {fmt} from '@/utils';
+
   export default {
 	name: 'app',
 	data() {
@@ -14,9 +16,7 @@
 	  };
 	},
 	filters: {
-	  date(v) {
-		return this.$utils.fmt('YYYY-MM-DD HH:mm:ss')(v);
-	  }
+	  date: v => fmt('YYYY-MM-DD HH:mm:ss')(v)
 	},
 	created() {
 	  this.timeStart();
